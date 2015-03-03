@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title></title>
     <script src="forumJS.js"></script>
+    <script src="jquery-2.1.3.js"></script>
 </head>
 <body>
 <div>
 <p>Title goes here</p>
 </div>
-<div>
-    <input type="text" value ="write your posts in here">
-    <input type="submit">
+<div id="post">
+    <label for="postBox"></label><input id="postBox" type="text" value ="write your posts in here">
+    <input type="submit" onclick="createNewPost()">
 </div>
+<div id="anchor" style></div>
 </body>
 </html>
