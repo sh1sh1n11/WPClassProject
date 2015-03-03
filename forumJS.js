@@ -8,5 +8,6 @@ function createNewPost(){
     var boxPost = document.getElementById("post");
     newPara.innerHTML = newText;
     newDiv.appendChild(newPara);
+    newDiv.className = "posts";
     $(newDiv).insertAfter(boxPost);
 }
