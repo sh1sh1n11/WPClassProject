@@ -8,12 +8,31 @@
     <script src="jquery-2.1.3.js"></script>
 </head>
 <body>
+
 <div id ="titleDiv">
-<p>Title goes here</p>
+<p>Welcome to the forum!</p>
 </div>
+
+<div id="infoDiv">
+    <p>
+        Wikipedia (Listeni/ˌwɪkɨˈpiːdiə/ or Listeni/ˌwɪkiˈpiːdiə/ wik-i-pee-dee-ə) is a free-access, free content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Those who can access the site and follow its rules can edit most of its articles.[6] Wikipedia is ranked among the ten most popular websites[5] and constitutes the Internet's largest and most popular general reference work.[7][8][9] Jimmy Wales and Larry Sanger launched Wikipedia on January 15, 2001. Sanger[10] coined its name,[11] a portmanteau of wiki (from the Hawaiian word for "quick")[12] and encyclopedia. Initially only in English, Wikipedia quickly developed similar multilingual versions, differing in content and in editing practices. The English Wikipedia is now one of more than 200 Wikipedias and is the largest with over 4.7 million articles. As of February 2014, it had 18 billion page views and nearly 500 million unique visitors each month.[13] Globally, Wikipedia had more than 19 million accounts,[14] out of which there were about 69,000 active editors as of November 2014.[2] Supporters of Wikipedia's accuracy cite a 2005 survey of Wikipedia published in Nature based on a comparison of 42 science articles with Encyclopædia Britannica, which found that Wikipedia's level of accuracy approached Encyclopædia Britannica '​s.[15] Critics argue Wikipedia exhibits systemic bias.[16] Wikipedia has been criticized for being a mixture of "truths, half truths, and some falsehoods",[16] and subject to manipulation and spin.[17]
+    </p>
+</div>
+<!-- code below is to temporarily fix a css issue -->
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+<!-- code above is to temporarily fix a css issue -->
+
 <div id="post">
-    <label for="postBox"></label><input id="postBox" type="text" value ="write your posts in here">
-    <input type="submit" onclick="createNewPost()">
+    <TEXTAREA Name="content" id="postBox" onclick="inputBoxButtonDiv()" ROWS=3 COLS=20></TEXTAREA>
+    <!-- <label for="postBox"></label><input id="postBox" onclick="inputBoxButtonDiv()" type="text" value ="write your posts in here">
+-->  <!--  <input type="submit" onclick="createNewPost()"> -->
 </div>
+
 </body>
 </html>

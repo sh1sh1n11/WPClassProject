@@ -11,3 +11,17 @@ function createNewPost(){
     newDiv.className = "posts";
     $(newDiv).insertAfter(boxPost);
 }
+
+function inputBoxButtonDiv(){
+    var inputBox = document.getElementById(this);
+    var newButtonDiv = document.createElement("div");
+    var submitButton = document.createElement("input");
+    var postDiv = document.getElementById("post");
+    submitButton.setAttribute("type","submit");
+    submitButton.setAttribute("value","Post");
+    submitButton.onclick=createNewPost();
+    newButtonDiv.id="inputButtonDiv";
+    newButtonDiv.appendChild(submitButton);
+    newButtonDiv.insertAfter(postDiv);
+
+}

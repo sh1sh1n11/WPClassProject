@@ -1,19 +1,53 @@
-#titleDiv, #post {
-    margin-left: auto;
-    margin-right: auto;
+body{
+    background-color: #E9EAED;
+}
+#titleDiv {
     border: 0.0625em solid black;
     text-align: center;
-}
-
-#titleDiv {
-    margin-bottom: 5%;
-}
-
-div.posts {
+    font-size: 1.5em;
+    position: fixed;
+    width: 99%;
     margin-left: auto;
     margin-right: auto;
+    position: fixed;
+    z-index: 1;
+    background-color: #47639E;
+    color: whitesmoke;
+}
+
+#postBox {
+    height: 10em;
+    width: 50em;
+
+
+}
+
+#post, #inputButtonDiv {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0.0625em solid black;
+    text-align: center;
+    background-color: white;
+
+}
+div.posts {
+    margin-left: 20%;
+    margin-right: 20%;
     border: 0.0625em solid black;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+    background-color: white;
+}
+
+#infoDiv {
+    border: 0.0625em solid red;
+    text-align: center;
+    margin-top: 7%;
+    margin-right: 2%;
+    margin-left: 82%;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: fixed;
+    overflow: scroll;
 }
