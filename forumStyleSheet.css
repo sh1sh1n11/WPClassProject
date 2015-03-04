@@ -18,6 +18,7 @@ body{
 #postBox {
     height: 10em;
     width: 50em;
+    border-color: transparent;
 
 
 }
@@ -41,7 +42,7 @@ div.posts {
 }
 
 #infoDiv {
-    border: 0.0625em solid red;
+    border: 0.0625em solid #CCCCCC;
     text-align: center;
     margin-top: 7%;
     margin-right: 2%;
